@@ -5,6 +5,8 @@ ganache-cli \
   -h 0.0.0.0 \
   --accounts 10 \
   --hardfork istanbul \
+	--defaultBalanceEther 1000 \
+	--db ./yearn-database \
   --fork https://mainnet.infura.io/v3/${WEB3_INFURA_PROJECT_ID} \
   --gasLimit 12000000 \
   --mnemonic yearn-mainnet-fork \
