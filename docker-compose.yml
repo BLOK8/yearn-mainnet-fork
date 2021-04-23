@@ -11,7 +11,7 @@ services:
           - WEB3_INFURA_PROJECT_ID
           - ETHERSCAN_TOKEN
     ports:
-      - 8080:8545
+      - 80:8545
     environment:
       - WEB3_INFURA_PROJECT_ID
       - ETHERSCAN_TOKEN
