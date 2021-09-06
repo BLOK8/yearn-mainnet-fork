@@ -7,7 +7,7 @@ ganache-cli \
   --hardfork istanbul \
 	--defaultBalanceEther 1000 \
 	--db ./yearn-database \
-  --fork https://mainnet.infura.io/v3/${WEB3_INFURA_PROJECT_ID} \
+  --fork https://eth-mainnet.alchemyapi.io/v2/${WEB3_ALCHEMY_PROJECT_ID} \
   --gasLimit 12000000 \
   --mnemonic yearn-mainnet-fork \
   --port 8545 &
