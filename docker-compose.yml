@@ -8,12 +8,12 @@ services:
     build:
       context: .
       args:
-          - WEB3_ALCHEMY_PROJECT_ID
+          - WEB3_INFURA_PROJECT_ID
           - ETHERSCAN_TOKEN
     ports:
       - 80:8545
     environment:
-      - WEB3_ALCHEMY_PROJECT_ID
+      - WEB3_INFURA_PROJECT_ID
       - ETHERSCAN_TOKEN
     networks:
       - yearn-mainnet-fork
